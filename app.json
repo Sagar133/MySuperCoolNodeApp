@@ -3,5 +3,8 @@
   "description": "Trading Cloud for the CryptoControl Terminal",
   "repository": "https://github.com/Sagar133/MySuperCoolNodeApp",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["node", "express", "static"]
+  "keywords": ["node", "express", "static"],
+  "scripts": {
+    "postdeploy": "node reRouting.js"
+  },
 }
